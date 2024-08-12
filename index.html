@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoka Infos - Votre source d'information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .logo {
+            width: 50px;
+            height: auto;
+            margin-right: 20px;
+        }
+        header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        header p {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .news-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .news-item {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .news-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .news-item h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imgs/yoka logo.jpg" alt="Logo" class="logo">
+        <div>
+            <h1>Yoka Infos</h1>
+            <p>Informer, Inspirer, Unir</p>
+        </div>
+    </header>
+    
+    <nav>
+        <a href="#">Accueil</a>
+        <a href="#">Actualités</a>
+        <a href="#">Politique</a>
+        <a href="#">Sports</a>
+        <a href="#">Culture</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Bienvenue sur Yoka Infos</h1>
+    </div>
+
+    <div class="container">
+        <section class="news-section">
+            <article class="news-item">
+                <img src="image1.jpg" alt="Image 1">
+                <h2>Titre de l'article 1</h2>
+                <p>Brève description de l'article 1...</p>
+            </article>
+            <article class="news-item">
+                <img src="image2.jpg" alt="Image 2">
+                <h2>Titre de l'article 2</h2>
+                <p>Brève description de l'article 2...</p>
+            </article>
+            <article class="news-item">
+                <img src="image3.jpg" alt="Image 3">
+                <h2>Titre de l'article 3</h2>
+                <p>Brève description de l'article 3...</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Yoka Infos. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

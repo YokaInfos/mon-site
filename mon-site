@@ -1,0 +1,15 @@
+mon-site/
+    |-- index.html
+    |-- actualites.html
+    |-- politique.html
+    |-- sports.html
+    |-- culture.html
+    |-- contact.html
+    |-- styles.css
+    |-- logo.png
+    |-- hero-image.jpg
+    |-- actualite1.jpg
+    |-- politique1.jpg
+    |-- sports1.jpg
+    |-- culture1.jpg
+    |-- contact1.jpg
